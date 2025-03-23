@@ -1,19 +1,21 @@
-# === NODE ===
-node_modules
-.pnpm
-*.log
+# Node modules & caches
+node_modules/
+.pnpm/
+dist/
+.next/
 
-# === NEXT.JS (frontend) ===
-.next
-out
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# === NESTJS (backend) ===
-dist
+# Build
+out/
 
-# === ENV & OS ===
+# Env
 .env
 .env.*
-.DS_Store
 
-# === VSCODE ===
-.vscode
+# System files
+.DS_Store
