@@ -134,3 +134,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Next.js build
+.next
+
+# NestJS build
+dist
+
+# Others
+.env
+*.log
+pnpm-lock.yaml
