@@ -1,0 +1,19 @@
+# === NODE ===
+node_modules
+.pnpm
+*.log
+
+# === NEXT.JS (frontend) ===
+.next
+out
+
+# === NESTJS (backend) ===
+dist
+
+# === ENV & OS ===
+.env
+.env.*
+.DS_Store
+
+# === VSCODE ===
+.vscode
